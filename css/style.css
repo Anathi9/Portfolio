@@ -1,7 +1,7 @@
 
-
 body{
     background-color: #1B837c;
+ 
 }
 
 
@@ -18,10 +18,25 @@ body{
 .about-me{
     box-shadow: .4vw .4vw .8vw 1.2vw;
     background-color: white;
-    height: 500px;
 }
 .img2{
     
     height: 20rem;
     width: 20rem;
+}
+ 
+.about-section{
+   font-size: 20px;
+}
+h2{
+    font-size: 80px;
+}
+.landing-page{
+    height: 900px;
+}
+.icoon{
+    width: 25rem;
+}
+.mycard{
+    height:15rem ;
 }
