@@ -1,0 +1,27 @@
+
+
+body{
+    background-color: #1B837c;
+}
+
+
+.navSize{
+    font-size: 20px;
+}
+#img1 {
+    border: 4px;
+    border-radius: 10em;
+}
+.bio{
+    padding-top: 170px;
+}
+.about-me{
+    box-shadow: .4vw .4vw .8vw 1.2vw;
+    background-color: white;
+    height: 500px;
+}
+.img2{
+    
+    height: 20rem;
+    width: 20rem;
+}
