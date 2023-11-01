@@ -40,3 +40,6 @@ h2{
 .mycard{
     height:15rem ;
 }
+#Education,#About,#Testimonial,#Skills,#Projects,#Contacts {
+    height: 800px;
+}
