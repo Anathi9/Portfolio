@@ -32,7 +32,7 @@ h2{
     font-size: 80px;
 }
 .landing-page{
-    height: 900px;
+    height: 800px;
 }
 .icoon{
     width: 25rem;
@@ -40,6 +40,36 @@ h2{
 .mycard{
     height:15rem ;
 }
-#Education,#About,#Testimonial,#Skills,#Projects,#Contacts {
+#Education,#About,#Testimonials,#Skills,#Projects,#Contacts{
     height: 800px;
 }
+
+@media screen and (width <800px ) {
+    .mycard{
+        height: 30rem;
+    }
+    #img1{
+        width: 15rem;
+        height: 15rem;
+        display: block;
+    }
+
+    .bio{
+        padding-top: 5%;
+    }
+}
+
+h1,#parag1 {
+    width: -8px;
+    height: -8px;
+    position: relative;
+    animation: mymove 2s infinite;
+  }
+  
+  @keyframes mymove {
+    from {left: 0px;}
+    to {left: 200px;}
+  }
+
+        
+    
