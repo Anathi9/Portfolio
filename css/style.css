@@ -40,9 +40,7 @@ h2{
 .mycard{
     height:15rem ;
 }
-#Education,#About,#Testimonials,#Skills,#Projects,#Contacts{
-    height: 800px;
-}
+
 
 @media screen and (width <800px ) {
     .mycard{
@@ -57,8 +55,16 @@ h2{
     .bio{
         padding-top: 5%;
     }
-}
+} 
 
+.carrds{
+    width: 18rem;
+}
+@media screen and (width = 300px) {
+    .carrds{
+        width: 16rem;
+    }
+}
 h1,#parag1 {
     width: -8px;
     height: -8px;
@@ -68,7 +74,10 @@ h1,#parag1 {
   
   @keyframes mymove {
     from {left: 0px;}
-    to {left: 200px;}
+    to {left: 70px;}
+  }
+  .message{
+    height: 10rem;
   }
 
         

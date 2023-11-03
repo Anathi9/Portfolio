@@ -9,15 +9,16 @@
     <title>Portfolio</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary ">
+  
+      <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse justify-content-end" id="navbarNav ">
-            <ul class="navbar-nav navSize">
+          <div class="collapse justify-content-end navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#About">About</a>
@@ -37,12 +38,11 @@
               <li class="nav-item">
                 <a class="nav-link" href="#Contacts">Contacts</a>
               </li>
+
             </ul>
           </div>
         </div>
       </nav>
-  
-
     
   <main class="container-fluid">
     
@@ -60,18 +60,18 @@
       </div>
     </div>
     
- <section class="container mt-5 mb-5" id="About">
+ <section class="container mt-5 mb-5 pb-5" id="About">
      <div class="row  about-me bg-body-secondary justify-content-between">
       <div class="header py-5 text-center">
         <h3 class="display-5">About</h3>
       </div>
-      <!-- <h3 class="text-center">About</h3> -->
+      
 
         <div class="col-6">
-            <img class="img2" src="https://i.postimg.cc/zX69cRc4/DSC-0316.jpg" loading="lazy" alt="about-image">
+            <img class="img2 img-fluid pb-4" src="https://i.postimg.cc/zX69cRc4/DSC-0316.jpg" loading="lazy" alt="about-image">
         </div>
 
-        <div class="col-6 about-section ">
+        <div class="col about-section ">
             <p>I'm an aspiring full-stack developer.</p>
                 <p> I am eager to leverage my knowledge and experience as an aspiring  full-stack developer with a strong focus on reliability,communication and a willigness to take any challenges</p>
                 <p> I aim to excel as a full-stack developer which allows me to further develop my skills and actively contribute to the organization's objective.</p>
@@ -80,15 +80,12 @@
     </div>
  </section>
 
- <section class="container" id="Education">
+ <section class="container mb-5 pb-5" id="Education">
     <div class="row text-center mt-3">
         <div class="header py-5"></div>
         <h3 class="display-5 mb-5">Education</h3>
       </div>
       
-
-    <!-- <section class="Education-section "> -->
-
             <div class="row">
                 <div class="col-sm-4 mb-3 mb-sm-0">
                   <div class="card mycard bg-body-secondary">
@@ -128,67 +125,48 @@
                     </div>
                   </div>
               </div>
-    <!-- </section> -->
-
-
-
     </div>
 
  </section>
 
-
-
-<section class="container" id="Skills">
+<section class="container mb-5 pb-5" id="Skills">
 <div class="row justify-content-center">
   <div class="header py-5 text-center">
     <h3 class="display-5">Skills</h3>
   </div>
 </div>
     
-<div class="row g-4">
+<div class="row g-4 justify-content-center">
   <div class="col">
-    <div class="card">
-      <img src="https://i.postimg.cc/bJTJC8d3/download-1-css.png" class="card-img-top" alt="CSS" height="200" width="200">
-      <div class="card-body">
-        <h5 class="card-title">CSS</h5>
-        <p class="card-text"> I am proficient in CSS.</p>
-      </div>
-    </div>
+    <img src="https://i.postimg.cc/B6V6bhxJ/download-1-css.png" alt="CSS" width="200" height="200">
+    <p class="pt-4"> I am proficient in CSS</p>
   </div>
-  <div class="col">
-    <div class="card">
-      <img src="https://i.postimg.cc/SKbCHSNh/download-8.png" class="card-img-top" alt="HTML" height="200" width="200">
-      <div class="card-body">
-        <h5 class="card-title">HTML</h5>
-        <p class="card-text">I am proficient in HTML.</p>
-      </div>
-    </div>
-  </div>
-  <div class="col">
-    <div class="card">
-      <img src="https://i.postimg.cc/WbWP9z8d/25231.png" class="card-img-top" alt="GITHUB" height="200" width="200">
-      <div class="card-body">
-        <h5 class="card-title">GITHUB</h5>
-        <p class="card-text">I am proficient in github </p>
-      </div>
-    </div>
-  </div>
-  
-    </div>
+
+  <div class="col ">
+  <img src="https://i.postimg.cc/L59cdRqX/download-1-html.png" alt="HTML" width="200" height="200">
+  <p class="pt-4"> I am proficient in HTML</p>
+
+</div>
+<div class="col ">
+  <img src="https://i.postimg.cc/KjdqQ2y4/25231.png" alt="GITHUB" width="200" height="200">
+  <p class="pt-4"> I am proficient in Github as well as git.</p>
+
   </div>
 </div>
 
+
+
 </section>
 
-  <section class="container" id="Projects">
+  <section class="container mb-5 pb-5" id="Projects">
     <div class="row text-center mt-3">
       <div class="header py-5 text-center">
         <h3 class="display-5">Projects</h3>
       </div>  
    
        
-          <div class="col-sm-4 mb-3 mb-sm-0">
-              <div class="card" style="width: 18rem;">
+          <div class="col ms-1 mb-3 mb-sm-0">
+              <div class="card carrds" >
                     <img src="https://i.postimg.cc/8PZ5dyMV/download-1-235-1.jpg" height= "250px" class="card-img-top" alt="calc">
                   <div class="card-body">
                     <h5 class="card-title">Calculator</h5>
@@ -200,8 +178,8 @@
           </div>
    
         
-        <div class="col-sm-4 mb-3 mb-sm-0">
-          <div class="card" style="width: 18rem;">
+        <div class="col ms-1 mb-3 mb-sm-0">
+          <div class="card carrds" >
             <img src="https://i.postimg.cc/mZcT9bVB/download-1-5555-1.jpg" height="250px"  class="card-img-top" alt="Netflix page">
             <div class="card-body">
               <h5 class="card-title">Netflix landing page</h5>
@@ -212,8 +190,8 @@
           </div>
         </div>
 
-        <div class="col-sm-4 mb-3 mb-sm-0">
-          <div class="card" style="width: 18rem;">
+        <div class="col ms-1 mb-3 mb-sm-0">
+          <div class="card carrds" >
             <img src="https://i.postimg.cc/nhN4HVdr/download-1-222233-1.png" height="250px" class="card-img-top" alt="Keyboard">
             <div class="card-body">
               <h5 class="card-title">Keyboard</h5>
@@ -223,50 +201,74 @@
             </div>
           </div>
         </div>
+
+        <div class="col ms-1 mb-3 mb-sm-0">
+          <div class="card carrds" >
+            <img src="https://i.postimg.cc/1t1qmDdY/x21-Day-Dinner-Box-1-768x768-jpg-pagespeed-ic-q-REOq-Btxb.webp" height="270px" class="card-img-top" alt="Yummy Food">
+            <div class="card-body">
+              <h5 class="card-title">Yummy Food</h5>
+              <p class="card-text"> To do project.</p>
+              <a target="_blank" href="https://github.com/Anathi9/Eco.git" class="btn btn-primary">Github </a>
+              <a target="_blank" href="https://deploy-preview-3--astonishing-torrone-8e3bc6.netlify.app/" class="btn btn-primary">Netlify </a>
+            </div>
+          </div>
+        </div>
+        
   </section>
 
-  <section class="container" id="Testimonials">
+  <section class="container mb-5 pb-5" id="Testimonials">
     <div class="row text-center mt-3" >
       <div class="header py-5">
         <h3 class="display-5">Testimonials</h3>
       </div>
     </div>
     <div class="card-group">
-      <div class="card mx-4 ">
-        <img src="https://i.postimg.cc/1tHwcmJm/Snapchat-5586635542-N-1.jpg" class="card-img-top" alt="NW" width="150" height="150">> 
-        <div class="card-body">
-          <h5 class="card-title">Nathalie Willemse</h5>
-          <p class="card-text">Anathi is a kind-hearted person, she always willing to help other people to achieve their goals. She is a hard worker and she is friendly, funny and a very outgoing person. She is always determined to do her best and I am glad for that, I am glad I am able to be her peer.</p>
-          
+      <div class="col">
+        <div class="card mx-4 " style="height: 550px;">
+          <img src="https://i.postimg.cc/1tHwcmJm/Snapchat-5586635542-N-1.jpg" class="card-img-top" alt="NW" width="150" height="250">> 
+          <div class="card-body">
+            <h5 class="card-title">Nathalie Willemse</h5>
+            <p class="card-text">Anathi is a kind-hearted person, she always willing to help other people to achieve their goals. She is a hard worker and she is friendly, funny and a very outgoing person. She is always determined to do her best and I am glad for that, I am glad I am able to be her peer.</p>
+            
+          </div>
         </div>
       </div>
-      <div class="card mx-4">
-        <img src="https://i.postimg.cc/SNJQ2mth/mzwa.jpg" class="card-img-top" alt="ML" width="150"  height="150">
-        <div class="card-body">
-          <h5 class="card-title">Mzwa Louw</h5>
-          <p class="card-text">Anathi is hardworking, fast-learner, dedicated to her work and she enjoys solving challenges,Anathi consistently goes above and beyond her duties and she is the go to person for problem-solving and also attention to detail...</p>
-          
+      <div class="col">
+        <div class="card mx-4" style="height: 550px;">
+          <img src="https://i.postimg.cc/SNJQ2mth/mzwa.jpg" class="card-img-top" alt="ML" width="150"  height="250">
+          <div class="card-body">
+            <h5 class="card-title">Mzwa Louw</h5>
+            <p class="card-text">Anathi is hardworking, fast-learner, dedicated to her work and she enjoys solving challenges,Anathi consistently goes above and beyond her duties and she is the go to person for problem-solving and also attention to detail...</p>
+            
+          </div>
         </div>
       </div>
-      <div class="card mx-4">
-        <img src="https://i.postimg.cc/Nf1D5tw0/1000094544111-1.jpg" class="card-img-top" alt="SP" width="150" height="150">
-        <div class="card-body">
-          <h5 class="card-title">Sivuisiwe Peter</h5>
-          <p class="card-text">Anathi Josefu is a very intelligent young lady who always strives for the best despite facing  challenges. She is the true definition of  persistence pays off.</p>
-           
-    
+      <div class="col">
+        <div class="card mx-4" style="height: 550px;">
+          <img src="https://i.postimg.cc/Nf1D5tw0/1000094544111-1.jpg" class="card-img-top" alt="SP" width="150" height="250">
+          <div class="card-body">
+            <h5 class="card-title">Sivuisiwe Peter</h5>
+            <p class="card-text">Anathi Josefu is a very intelligent young lady who always strives for the best despite facing  challenges. She is the true definition of  persistence pays off.</p>
+             
+      
+          </div>
         </div>
       </div>
-      <div class="card mx-4">
-        <img src="https://i.postimg.cc/1tsnCkjv/20231022-161301-3.jpg" class="card-img-top" alt="SP" width="150" height="150">
-        <div class="card-body">
-          <h5 class="card-title">Taryn-lee Walbrugh </h5>
-          <p class="card-text">Anathi Josefu is a beautiful person with a exceptional personality, she is extremely intelligent and has so much ambition for what she does ..truly an inspiration to her peers .
-            .</p>
-           
-    
+      <div class="col">
+        <div class="card mx-4" style="height: 550px;">
+          <img src="https://i.postimg.cc/1tsnCkjv/20231022-161301-3.jpg" class="card-img-top" alt="SP" width="150" height="250">
+          <div class="card-body">
+            <h5 class="card-title">Taryn-lee Walbrugh </h5>
+            <p class="card-text">Anathi Josefu is a beautiful person with a exceptional personality, she is extremely intelligent and has so much ambition for what she does ..truly an inspiration to her peers .
+              .</p>
+
+          </div>
         </div>
       </div>
+      
+     
+      
+     
     </div>
     
           
@@ -278,38 +280,22 @@
         <h3 class="display-5">Contacts</h3>
       </div>
     </div>
-    <form class="row g-3">
+    <form action="https://formspree.io/f/xrgwdqen" method="post" class="row g-3">
       <div class="col-md-6">
-        <label for="inputname" class="form-label">Name</label>
-        <input type="name" class="form-control" id="inputname">
+        <label for="inputname" class="form-label">Full Name</label>
+        <input type="name" name="FULL_NAME" class="form-control" id="inputname" required>
       </div>
       <div class="col-md-6">
         <label for="Email" class="form-label">Email</label>
-        <input type="Email" class="form-control" id="Email">
+        <input type="Email" name="EMAIL" class="form-control" id="Email" required>
       </div>
       <div class="col-12">
         <label for="inputAYour message" class="form-label">Your message</label>
-        <input type="text" class="form-control" id="inputYour message" placeholder="">
+        <input type="text" name="message" class="form-control message" required id="inputYour message" placeholder="enter your message">
       </div>
-      <div class="col-md-6">
-        <label for="inputCity" class="form-label">City</label>
-        <input type="text" class="form-control" id="inputCity">
-      </div>
-      </div>
-      <div class="col-md-2">
-        <label for="inputcode" class="form-label">code</label>
-        <input type="text" class="form-control" id="inputZip">
-      </div>
+
       <div class="col-12">
-        <div class="form-check">
-          <input class="form-check-input" type="checkbox" id="gridCheck">
-          <label class="form-check-label" for="gridCheck">
-            Check me out
-          </label>
-        </div>
-      </div>
-      <div class="col-12">
-        <button type="submit" class="btn btn-primary">Sign in</button   >
+        <button type="submit" class="btn btn-primary">Send</button   >
       </div>
     </form>
  
@@ -317,10 +303,13 @@
 
 </main>
 
-<footer class="row text-center text-bg-info ">
-  <h3>@copyright &copy; 2023</h3>
-</footer>
+<footer class=" container-fluid  ">
+  <div class="row  text-center text-bg-info" >
+    <h3 >@copyright &copy; 2023</h3>
 
+  </div>
+</footer>
+ 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
